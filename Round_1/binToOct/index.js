@@ -1,5 +1,4 @@
-function binToOct(b) {
-  return parseInt(b, 2).toString(8);
-
+function octToBin(octal) {
+    return parseInt(octal, 8).toString(2);
 }
-    console.log(binToOct(111));
+    console.log(octToBin(1000));
